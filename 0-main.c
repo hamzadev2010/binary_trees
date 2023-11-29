@@ -6,6 +6,7 @@
  *
  * Return: always  0
  */
+
 int main(void)
 {
 binary_tree_t *root;
