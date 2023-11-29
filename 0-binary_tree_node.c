@@ -5,6 +5,7 @@
  * @value: Value to assign to the new node
  * Return: Pointer to the new node ct
  */
+
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 {
 	binary_tree_t *ct;
