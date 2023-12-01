@@ -4,7 +4,7 @@
  * binary_tree_insert_right - Inserting.
  * @parent: Inserting on the new node.
  * @value: Value of the new node.
- * Return: Creating new node. 
+ * Return: Creating new node.
  */
 binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
 {
