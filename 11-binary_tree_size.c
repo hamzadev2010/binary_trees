@@ -8,8 +8,23 @@
  */
 size_t binary_tree_size(const binary_tree_t *tree)
 {
+	size_t sz = 0;
+
 	if (!tree)
+	{
 		return (0);
+	}
 	else
-		return (binary_tree_size(tree->left) +
-				binary_tree_size(tree->right) + 1);
+	{
+		sz += 1;
+		if (tree->left)
+		{
+			sz += binary_tree_size(tree->left);
+		}
+		if (tree->right)
+		{
+			sz += binary_tree_size(tree->right);
+		}
+		return (sz);
+	}
+}
