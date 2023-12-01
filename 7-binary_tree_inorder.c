@@ -2,7 +2,7 @@
 
 /**
   * binary_tree_inorder - Function in binary tree
-  * @tree: Tree root 
+  * @tree: Tree root
   * @func: Call function.
   */
 void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int))
