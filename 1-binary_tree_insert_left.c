@@ -2,7 +2,7 @@
 
 /**
  * binary_tree_insert_left - Inserting node.
- * @parent: Parent of the node 
+ * @parent: Parent of the node
  * @value: value of the new node.
  *
  * Return: create new node, NULL on error creating .
