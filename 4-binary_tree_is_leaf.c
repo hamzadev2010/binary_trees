@@ -6,12 +6,12 @@
  *
  * Return: 1 if success otherwise 0.
  */
-int binary_tree_is_leaf(const binary_tree_t *nod)
-{
-if (nod == NULL)
-		return (0);
 
-if (!nod->left && !nod->right)
+int binary_tree_is_leaf(const binary_tree_t *node)
+{
+if (!node)
+		return (0);
+if (!(node->left) && !(node->right))
 		return (1);
         	return (0);
 }
